@@ -1,7 +1,7 @@
 <?php
 $servidorDB = "localhost";
 $usuarioDB = "root";
-$contraseñaDB = "Guatemala2022.";
+$contraseñaDB = "";
 $nombreDB = "pruebita";
 
 $conexion = new mysqli($servidorDB, $usuarioDB, $contraseñaDB, $nombreDB);
