@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <h3 style="text-align:center">Nuevo registro</h1>
+            <h3 style="text-align:center"><br>Nuevo registro</h1>
 
                 <form class="form-horizontal" action="guardar.php" method="post" autocomplete="off">
 
@@ -78,6 +78,7 @@
                             <label class="radio-inline">
                                 <input type="radio" id="hijos" name="hijos" value="1" checked>NO
                             </label>
+                            <br>
                         </div>
                     </div>
 
@@ -85,23 +86,37 @@
 
 
                     <div class="form-group">
-                        <strong><br>
-                            <label for="intereses" class="col-sm-2 control-label">¿Tiene hijos?</label>
-                        </strong>
+                        <br>
+                        <label for="intereses" class="col-sm-2 control-label">INTERESES</label>
+
                         <div class="col-sm-10">
-                            <label class="radio-inline">
-                                <input type="radio" id="hijos" name="hijos" value="0" checked>SI
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="intereses[]" name="intereses[]" value="Libros"> Libros
                             </label>
 
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="intereses[]" name="intereses[]" value="Musica"> Musica
+                            </label>
 
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="intereses[]" name="intereses[]" value="Deportes"> Deportes
+                            </label>
+
+                            <label class="checkbox-inline">
+                                <input type="checkbox" id="intereses[]" name="intereses[]" value="Otros"> Otros
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <br>
+                            <a href="index.php" class="btn btn-secondary">Regresar</a>
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </form>
         </div>
-    </div>
-
-
-
-    </form>
-    </div>
-
 </body>
 
 </html>
