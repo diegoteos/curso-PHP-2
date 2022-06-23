@@ -9,5 +9,5 @@ function insertar($nombre, $contra, $usuario)
     }
     mysqli_close($conexion);
 }
-$esto = insertar('diego', 'teos', 'Diego');
-echo $esto;
+echo $esto = insertar('diego', 'teos', 'Diego');
+

@@ -2,7 +2,7 @@
 $servidorDB = "localhost";
 $usuarioDB = "root";
 $contraseñaDB = "Guatemala2022.";
-$nombreDB = "pruebita";
+$nombreDB = "personal";
 
 $conexion = new mysqli($servidorDB, $usuarioDB, $contraseñaDB, $nombreDB);
 
