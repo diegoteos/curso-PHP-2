@@ -5,9 +5,9 @@ $hola = function ($nombre, $apellidos) {
 
     echo "Hola $nombre tu apellido es $apellidos";
 };
-$diego = 'puta madre ';
-$alonzo = ' Saber que putas ';
-$apellidos = ' Saber que putas dos veces mas ';
+$diego = 'Hola madre ';
+$teos = ' Saber que cosa ';
+$apellidos = ' Saber que cosas hice dos veces mas ';
 
 //le metemos los parametros a la variable
-$hola($diego, $alonzo, $apellidos);
+$hola($diego, $teos, $apellidos);
