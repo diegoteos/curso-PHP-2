@@ -30,7 +30,6 @@ VALUES ('$nombre', '$email', $telefono, '$estado_civil', '$hijos', '$arrayIntere
 $resultado = $conexion->query($sql);
 
 ?>
-
 <?php
 include_once 'cabecera.php';
 ?>
@@ -41,15 +40,15 @@ include_once 'cabecera.php';
     <div class="container">
         <div class="row">
             <div class="row" style="text-align: center">
-            <?php if ($resultado){ ?>
-                <h3>
-                    REGRISTRO GUARDADO
-                </h3>
+                <?php if ($resultado) { ?>
+                    <h3>
+                        REGRISTRO GUARDADO
+                    </h3>
                 <?php } else { ?>
                     <h3>ERROR AL GUARDAR</h3>
-                    <?php } ?>
+                <?php } ?>
 
-                    <a href="index.php" class="btn btn-primary">Regresar</a>
+                <a href="index.php" class="btn btn-primary">Regresar</a>
             </div>
 
         </div>
