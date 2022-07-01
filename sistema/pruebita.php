@@ -10,7 +10,6 @@
     <form action="" method="post">
         <input type="text" name="dd" value="">
         <input type="submit" name="">
-
     </form>
 </body>
 </html>
