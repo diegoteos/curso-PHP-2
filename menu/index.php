@@ -11,7 +11,7 @@ if (!empty($_POST['menu'])) {
 $pagina = $_POST['menu'];
     switch ($pagina) {
         case '1':
-            require_once 'inicio.php';
+            require '../../sistema/2julio/index.php';
             break;
 
         case '2':
