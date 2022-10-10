@@ -2,7 +2,7 @@
 
 function buenosDias($nombre)
 {
-    return "Hola, por este medio le damos la bienvendia $nombre es un gusto saludarlo.";
+    echo "Hola, por este medio le damos la bienvendia $nombre es un gusto saludarlo.";
 }
 
 function saludo($nombre)
@@ -11,3 +11,5 @@ function saludo($nombre)
 }
 
 echo saludo("diego");
+
+//buenosDias('diego');
