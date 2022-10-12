@@ -2,7 +2,7 @@
 
 
 
-$retiro = "1462";
+$retiro = "1452";
 
 //echo strlen($retiro);
 
@@ -48,6 +48,55 @@ if (strlen($retiro) == 4) {
                         $residuo = $residuo - 5;
                         if ($residuo > 0) {
                             echo '<br />' . "$residuo Billete(s) de cinco";
+                            $residuo = $residuo - 5;
+                        } elseif ($residuo < 40) {
+                            echo "1 Billete de cincuenta";
+                        }
+                    } else {
+                        echo '<br />' . "1 Billete de cinco";
+                        $residuo = $residuo - 5;
+                        if ($residuo > 0) {
+                            echo '<br />' . "$residuo Billete(s) de cinco";
+                            $residuo = $residuo - 5;
+                        } elseif ($residuo < 40) {
+                            echo "1 Billete de cincuenta";
+                        }
+                    }
+                }
+            }
+        }
+    } else {
+        if ($residuo >= 50) {
+            echo '<br />' . "1 Billete de cincuenta";
+            $residuo = $residuo - 50;
+            if ($residuo >= 40) {
+                echo '<br />' . "2 Billetes de veinte";
+            } elseif ($residuo < 40 && $residuo > 20) {
+                echo '<br />' . "1 Billete de veinte";
+                $residuo = $residuo - 20;
+                if ($residuo >= 10) {
+                    echo '<br />' . "1 Billete de diez";
+                    $residuo = $residuo - 10;
+                    if ($residuo >= 5) {
+                        echo '<br />' . "1 Billete de cinco";
+                        $residuo = $residuo - 5;
+                        if ($residuo > 0) {
+                            echo '<br />' . "$residuo Billete(s) de quetzal";
+                            $residuo = $residuo - 5;
+                        } elseif ($residuo < 40) {
+                            echo "1 Billete de cincuenta";
+                        }
+                    }
+                }
+            } else {
+                if ($residuo >= 10) {
+                    echo '<br />' . "1 Billete de diez";
+                    $residuo = $residuo - 10;
+                    if ($residuo >= 5) {
+                        echo '<br />' . "1 Billete de cinco";
+                        $residuo = $residuo - 5;
+                        if ($residuo > 0) {
+                            echo '<br />' . "$residuo Billete(s) de quetzal";
                             $residuo = $residuo - 5;
                         } elseif ($residuo < 40) {
                             echo "1 Billete de cincuenta";
