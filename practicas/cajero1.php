@@ -1,10 +1,7 @@
 <?php
 
 
-
-$retiro = "658";
-
-
+$retiro = "1658";
 
     if ($retiro <= 2000) {
         $doscientos = $retiro / 200;
