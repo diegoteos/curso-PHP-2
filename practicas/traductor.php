@@ -71,48 +71,48 @@ function traducirPalabras($palabra)
             return 'Hippopotamus';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'abeja':
+            return 'bee';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'aguila':
+            return 'eagle';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'araña':
+            return 'spider';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'ardilla':
+            return 'squirrel';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'avestruz':
+            return 'ostrich';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'avispa':
+            return 'wasp';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'burro':
+            return 'donkey';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'caballo':
+            return 'horse';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'calamar':
+            return 'squid';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'cangrejo':
+            return 'crab';
             break;
 
-        case 'perro':
-            return 'dog';
+        case 'caracol':
+            return 'snail';
             break;
 
         case 'perro':
