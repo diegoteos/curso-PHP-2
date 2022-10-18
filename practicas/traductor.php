@@ -142,159 +142,33 @@ if (isset($_POST['animal'])) {
                 return 'snail';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'cerdo':
+                return 'pig';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'leon':
+                return 'lion';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'leopardo':
+                return 'leopard';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'mono':
+                return 'monkey';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'raton':
+                return 'mouse';
                 break;
 
-            case 'perro':
-                return 'dog';
+            case 'conejo':
+                return 'rabbit';
                 break;
 
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
-
-            case 'perro':
-                return 'dog';
-                break;
+ 
             default:
-                echo " no existe ";
+                echo " no esta registrado ";
         }
     }
     echo $animal . ' en idioma ingles    ' . traducirPalabras($animal);
