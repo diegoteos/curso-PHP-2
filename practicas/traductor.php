@@ -166,7 +166,10 @@ if (isset($_POST['animal'])) {
                 return 'rabbit';
                 break;
 
- 
+            case 'cebra':
+                return 'zebra';
+                break;
+
             default:
                 echo " no esta registrado ";
         }
