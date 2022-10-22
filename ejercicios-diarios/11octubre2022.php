@@ -21,9 +21,6 @@ $ingreso = array(
     5
 );
 
-$resultado = array(120, 60, 40, 30, 24);
-
-var_dump($resultado);
 
 echo "<br /><br />Algoritmo multiplicar posiciones del array de la siguiente manera: <br />";
 echo "resultado primera fila:  2 * 3 * 4 * 5 = " . 2 * 3 * 4 * 5 . '<br />';
@@ -31,4 +28,29 @@ echo "resultado primera fila:  3 * 4 * 5 * 1 = " . 3 * 4 * 5 * 1 . '<br />';
 echo "resultado primera fila:  4 * 5 * 1 * 2 = " . 4 * 5 * 1 * 2 . '<br />';
 echo "resultado primera fila:  5 * 1 * 2 * 3 = " . 5 * 1 * 2 * 3 . '<br />';
 echo "resultado primera fila:  1 * 2 * 3 * 4 = " . 1 * 2 * 3 * 4 . '<br />';
+echo '<br />';
+echo '<br />';
+echo $tamaño = count($ingreso);
+echo '<br />';
 
+$nuevo = array();
+
+if ($tamaño > 4) {
+    $a = $ingreso[1] * $ingreso[2] * $ingreso[3] * $ingreso[4];
+    $b = $ingreso[2] * $ingreso[3] * $ingreso[4] * $ingreso[0];
+    $c = $ingreso[3] * $ingreso[4] * $ingreso[0] * $ingreso[1];
+    $d = $ingreso[4] * $ingreso[0] * $ingreso[1] * $ingreso[2];
+    $e = $ingreso[0] * $ingreso[1] * $ingreso[2] * $ingreso[3];
+
+    array_push($nuevo, $a, $b, $c, $d, $e);
+} elseif ($tamaño == 3) {
+    $a = $ingreso[1] * $ingreso[2];
+    $b = $ingreso[2] * $ingreso[0];
+    $c = $ingreso[0] * $ingreso[1];
+    array_push($nuevo, $a, $b, $c);
+}
+
+
+
+echo '<pre>';
+print_r($nuevo);
