@@ -57,7 +57,7 @@ function getBrowser($user_agent)
   elseif (strpos($user_agent, 'Safari') !== FALSE)
     return "Safari";
   else
-    return 'No hemos podido detectar su navegador';
+    return 'No hemos podido detectar su navegador, pinche puto';
 }
 
 
