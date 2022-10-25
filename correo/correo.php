@@ -64,16 +64,16 @@ function getBrowser($user_agent)
 $nav = getBrowser($user_agent);
 
 
-function correo($nombre, $apellido, $telefono, $correo, $ip, $fecha, $SO, $nav)
+function correo($nombre, $asunto, $telefono, $mensaje, $correo, $ip, $fecha, $SO, $nav)
 {
 
 
-  $para      = 'microeconomiaumg2016@hotmail.com';
-  $asunto    = 'Formulario llenado por ' . $nombre;
-  $mensaje   = "Hola $nombre ha llenado el formulario con los datos siguientes: apellido $apellido telefono $telefono correo $correo desde la IP $ip hoy $fecha sistema operativo $SO y navegador $nav";
+  $para      = 'crystian_1989@hotmail.com';
+  $asunto    = 'ASUNTO: ' . $asunto;
+  $contenido   = "$mensaje \r\n INFORMACION DEL CORREO: IP $ip fecha $fecha sistema operativo $SO y navegador $nav";
   $cabeceras = 'From: ALERTA' . "\r\n" .
-    'Reply-To: prueba@ejemplo.com' . "\r\n" .
+    'Reply-To: ' . $correo . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-  mail($para, $asunto, $mensaje, $cabeceras);
+  mail($para, $asunto, $contenido, $cabeceras);
 }
