@@ -1,6 +1,5 @@
 <?php
-
-
+$hola = "hola";
 
 $ip = $_SERVER['REMOTE_ADDR'];
 date_default_timezone_set('America/Guatemala');

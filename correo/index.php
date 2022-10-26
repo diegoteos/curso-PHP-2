@@ -44,8 +44,8 @@ if (isset($_POST['correo']) && isset($_POST['asunto'])) {
             <div class="mb-3">
                 <label class="form-label">Telefono:</label>
                 <input type="number" class="form-control" name="asunto">
-            </div>
-            <div>
+            </div> 
+            <div> 
                 <label class="form-label">Mensaje:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
