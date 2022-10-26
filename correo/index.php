@@ -1,3 +1,18 @@
+<?php
+
+if (isset($_POST['correo']) && isset($_POST['asunto'])) {
+    $nombre = $_POST['nombre'];
+    $asunto = $_POST['asunto'];
+    $correo = $_POST['correo'];
+    $telefono = $_POST['telefono'];
+    $mensaje = $_POST['mensaje'];
+
+    require_once 'correo.php';
+    correo($nombre, $asunto, $correo, $telefono, $mensaje, $ip, $fecha, $SO, $nav);
+} else {
+    echo "Ingrese la informacion requerida.";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,18 +26,19 @@
 
 <body>
     <div class="container">
-<h3>Formulario de contacto:</h3>
+        <br>
+        <h3>Formulario de contacto:</h3>
         <form method="POST" action="">
             <div class="mb-3">
-                <label class="form-label">Nombre:</label>
+                <label class="form-label">Ingrese su nombre:</label>
                 <input type="txt" class="form-control" name="nombre" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <label class="form-label">Asunto:</label>
+                <label class="form-label">Asunto o tema:</label>
                 <input type="text" class="form-control" name="asunto">
             </div>
             <div class="mb-3">
-                <label class="form-label">Correo (contacto):</label>
+                <label class="form-label">Correo electronico (contacto):</label>
                 <input type="email" class="form-control" name="correo">
             </div>
             <div class="mb-3">
@@ -31,19 +47,12 @@
             </div>
             <div>
                 <label class="form-label">Mensaje:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar información</button>
         </form>
     </div>
 </body>
 
 </html>
-<?php
-
-if ($isset($_POST['correo']) && isset($_POST['asunto'])){
-    echo "ya casi!";
-}
-else{
-echo "saber";
-}

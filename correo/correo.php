@@ -64,14 +64,14 @@ function getBrowser($user_agent)
 $nav = getBrowser($user_agent);
 
 
-function correo($nombre, $asunto, $telefono, $mensaje, $correo, $ip, $fecha, $SO, $nav)
+function correo($nombre, $asunto, $correo, $telefono, $mensaje, $ip, $fecha, $SO, $nav)
 {
 
 
   $para      = 'crystian_1989@hotmail.com';
   $asunto    = 'ASUNTO: ' . $asunto;
-  $contenido   = "$mensaje \r\n INFORMACION DEL CORREO: IP $ip fecha $fecha sistema operativo $SO y navegador $nav";
-  $cabeceras = 'From: ALERTA' . "\r\n" .
+  $contenido   = "$mensaje \r\n INFORMACION DEL CORREO: Telefono: $telefono, IP $ip fecha $fecha sistema operativo $SO y navegador $nav";
+  $cabeceras = 'From: contacto' . "\r\n" .
     'Reply-To: ' . $correo . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
