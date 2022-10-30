@@ -10,4 +10,4 @@ function token($tamaño = 10){
     return 'Token Bearer: ' . $valores;
 }
 
-echo token(40);
+echo token(4);
