@@ -11,3 +11,4 @@ function token($tamaño = 10){
 }
 
 echo token(4);
+
