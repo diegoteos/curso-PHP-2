@@ -12,3 +12,9 @@
       </div>
     </div>
   </div>
+
+  <?php
+
+  echo "hola otra vez";
+
+  ?>
