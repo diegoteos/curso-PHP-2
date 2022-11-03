@@ -36,3 +36,5 @@ echo '<br />';
 print_r('DPI corregiedo: ' . $cliente->getDPI());
 echo '<br />';
 print_r('Email corregiedo: ' . $cliente->getEmail());
+
+unset($cliente);

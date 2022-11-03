@@ -43,7 +43,7 @@ class Clientes
     {
         return  $this->dpi;
     }
-    public function setDPI($dpi_externo)
+    public function setDPI($dpi_externo)    
     {
         $this->dpi = $dpi_externo;
     }
