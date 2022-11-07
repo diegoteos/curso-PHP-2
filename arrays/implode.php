@@ -10,7 +10,9 @@ $persona2 = array(
     "carlos",
     "jjan"
 );
-echo implode(' ', $persona) . "\n";
+
+// funcion implode convierte un array a string
+echo implode(' ', $persona) . "<br/>";
 echo '<pre>';
 var_dump($persona);
 echo '<br>';
