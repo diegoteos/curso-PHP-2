@@ -21,10 +21,18 @@ $registros = array(
         'id' => 5623,
         'nombre' => 'Peter',
         'apellido' => 'Doe',
+    ),
+    array(
+        'id' => 5624,
+        'nombre' => 'dora',
+        'apellido' => 'exploradora',
     )
 );
  
 $nombres = array_column($registros, 'nombre');
 echo '<pre>';
 print_r($nombres);
+$diego = 'nombres';
+
+print_r(count($registros));
 ?>
