@@ -1,20 +1,17 @@
 <?php
-$input_array = array('a', 'b', 'c', 'd', 'e');
+
+// Retorna un array multidimensional indexado numéricamente, comenzando desde cero, en el cual cada dimensión contiene la cantidad de elementos definida en size.
+
+$abecedario = array('abrir', 'beber', 'comer', 'dinero', 'estado', 'fama', 'g', 'h', 'i', 'j', 'k');
+
+$caracteres = array_chunk($abecedario, 3);
+
 echo '<pre>';
-print_r(array_chunk($input_array, 2));
-print_r(array_chunk($input_array, 2, true));
-
-
-
-$abecedario = array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k');
-
-$caracteres = array_chunk($abecedario, 2);
-
 echo '<br/><br/>';
 
 print_r($caracteres);
-$varlor = $caracteres[10];
-print_r($caracteres[8]);
+//$varlor = $caracteres[10];
+print_r($caracteres[1]);
 
 
 
