@@ -15,4 +15,10 @@ print_r($caracteres[1]);
 
 
 
+echo '<br/><br/>';
+
+
+
+
+
 ?>
