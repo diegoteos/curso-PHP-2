@@ -7,7 +7,7 @@ $cuatro = ']';
 $cinco = '(';
 $seis = ')';
 
-$cadena = '([])[]({})';
+$cadena = '()';
 $tamaño = strlen($cadena);
 $contador = 0;
 if (strlen($cadena) % 2 == 0) {
