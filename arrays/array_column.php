@@ -1,6 +1,7 @@
 <?php
 // MUESTRA TODOS LOS RESULTADOS UNICAMENTE DEL INICE SELECCIONADO
 // Array representando un conjunto de registros posibles devueltos desde una base de datos
+// con array
 $registros = array(
     array(
         'id' => 2135,
