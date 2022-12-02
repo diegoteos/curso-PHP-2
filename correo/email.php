@@ -1,7 +1,7 @@
 
 <?php
 // Varios destinatarios
-$para  = 'diegoteos@hotmail.com';
+$para  = 'alejandra---777@hotmail.com';
 
 // título
 $título = 'La primera prueba';
@@ -25,7 +25,7 @@ $mensaje = '
       <td>Sally</td><td>17</td><td>Agosto</td><td>1973</td>
     </tr>
   </table>
-  <form action="www.google.com" method="post">
+  <form action="https://www.google.com/" method="post">
     <input type="txt" name="telefono" id="telefono">
     <button type="submit">Enviar</button>
 </form>
@@ -40,7 +40,7 @@ $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .=
     'Content-type: text/html; charset="UTF-8"' . "\r\n" .
     'From: guatemala.com' . "\r\n" .
-    'Reply-To: diegoteos@hotmail.com' . "\r\n" . // devuelve la respuesta a este correo
+    'Reply-To: alejandra---777@hotmail.com' . "\r\n" . // devuelve la respuesta a este correo
     'X-Mailer: PHP/' . phpversion();
 
 
