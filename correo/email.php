@@ -30,6 +30,9 @@ $mensaje = '
     <button type="submit">Enviar</button>
 </form>
 <a href="google.com" target="_blank">hola</a>
+
+<img src="https://cdn.pixabay.com/photo/2015/02/09/20/03/koala-630117__340.jpg"/>
+
 </body>
 </html>
 ';
