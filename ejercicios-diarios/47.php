@@ -1,7 +1,7 @@
 <?php
-echo "Este problema fue pedido por Facebook.
+echo "<h2>Este problema fue pedido por Facebook.
 Dada una matriz de números que representan los precios de las acciones de una empresa en orden cronológico, escriba una función que calcule la ganancia máxima que podría haber obtenido al comprar y vender esa acción una vez. Debes comprar antes de poder venderlo.
-Por ejemplo, dado [9, 11, 8, 5, 7, 10], deberías devolver 5, ya que podrías comprar la acción a 5 dólares y venderla a 10 dólares.";
+Por ejemplo, dado [9, 11, 8, 5, 7, 10], deberías devolver 5, ya que podrías comprar la acción a 5 dólares y venderla a 10 dólares.</h2>";
 echo '<br />';
 $acciones = array(
     9,
