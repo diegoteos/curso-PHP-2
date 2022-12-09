@@ -1,7 +1,7 @@
 
 <?php
 // Varios destinatarios
-$para  = 'alejandra---777@hotmail.com';
+$para  = 'alejan.com';
 
 // título
 $título = 'La primera prueba';
@@ -43,7 +43,7 @@ $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .=
     'Content-type: text/html; charset="UTF-8"' . "\r\n" .
     'From: guatemala.com' . "\r\n" .
-    'Reply-To: alejandra---777@hotmail.com' . "\r\n" . // devuelve la respuesta a este correo
+    'Reply-To: alejan@hotmail.com' . "\r\n" . // devuelve la respuesta a este correo
     'X-Mailer: PHP/' . phpversion();
 
 
